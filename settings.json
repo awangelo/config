@@ -5,6 +5,7 @@
     "telemetry.telemetryLevel": "off",
     "symbols.hidesExplorerArrows": false,
     "editor.fontFamily": "JetBrains Mono",
+    "editor.fontWeight": "600",
     "editor.lineHeight": 1.4,
     "workbench.startupEditor": "newUntitledFile",
     "editor.renderLineHighlight": "gutter",
@@ -26,7 +27,7 @@
     "window.commandCenter": false,
     "liveServer.settings.donotShowInfoMsg": true,
     "window.titleBarStyle": "custom",
-    "workbench.colorTheme": "wallbash",
+    "workbench.colorTheme": "Nord",
     "window.menuBarVisibility": "compact",
     "explorer.confirmDragAndDrop": false,
     "github.copilot.editor.enableAutoCompletions": true,
@@ -53,4 +54,5 @@
         ".monaco-list-row": "border-radius: 4px;",
         ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;"
     },
+    "workbench.editor.enablePreview": false
 }
