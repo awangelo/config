@@ -1,12 +1,12 @@
 {
+    "C_Cpp.default.compilerPath": "/usr/bin/gcc",
     "security.workspace.trust.untrustedFiles": "open",
     "workbench.iconTheme": "symbols",
     "editor.mouseWheelZoom": true,
-    "telemetry.telemetryLevel": "off",
     "symbols.hidesExplorerArrows": false,
     "editor.fontFamily": "JetBrains Mono",
-    "editor.fontWeight": "600",
     "editor.lineHeight": 1.4,
+    "editor.fontWeight": "450",
     "workbench.startupEditor": "newUntitledFile",
     "editor.renderLineHighlight": "gutter",
     "workbench.editor.labelFormat": "short",
@@ -19,25 +19,20 @@
     "workbench.statusBar.visible": false,
     "explorer.confirmDelete": false,
     "editor.inlineSuggest.suppressSuggestions": true,
-    "vscord.status.idle.enabled": false,
-    "vscord.status.idle.check": false,
-    "vscord.status.details.text.notInFile": "",
     "github.copilot.advanced": {},
     "workbench.layoutControl.enabled": false,
     "window.commandCenter": false,
     "liveServer.settings.donotShowInfoMsg": true,
     "window.titleBarStyle": "custom",
-    "workbench.colorTheme": "Nord",
     "window.menuBarVisibility": "compact",
     "explorer.confirmDragAndDrop": false,
     "github.copilot.editor.enableAutoCompletions": true,
     "editor.cursorSmoothCaretAnimation": "explicit",
-    "animations.Install-Method": "Apc Customize UI++",
     "apc.imports": [
         "file://${userHome}/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.3/dist/updateHandler.js"
     ],
     "apc.electron": {
-        "titleBarStyle": "hiddenInset",
+        "titleBarStyle": "hiddenInset"
     },
     "apc.header": {
         "height": 36
@@ -54,5 +49,12 @@
         ".monaco-list-row": "border-radius: 4px;",
         ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;"
     },
-    "workbench.editor.enablePreview": false
+    "workbench.editor.enablePreview": false,
+    "workbench.colorTheme": "Vim Dark Hard",
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "terminal.integrated.profiles.linux": {
+        "zsh": {
+            "path": "/bin/zsh"
+        }
+    }
 }
