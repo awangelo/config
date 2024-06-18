@@ -19,11 +19,11 @@
     "workbench.statusBar.visible": false,
     "explorer.confirmDelete": false,
     "editor.inlineSuggest.suppressSuggestions": true,
-    "github.copilot.advanced": {},
     "workbench.layoutControl.enabled": false,
     "window.commandCenter": false,
     "liveServer.settings.donotShowInfoMsg": true,
     "window.titleBarStyle": "custom",
+    "window.title": "≽^•⩊•^≼",
     "window.menuBarVisibility": "compact",
     "explorer.confirmDragAndDrop": false,
     "github.copilot.editor.enableAutoCompletions": true,
@@ -32,7 +32,7 @@
         "file://${userHome}/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.3/dist/updateHandler.js"
     ],
     "apc.electron": {
-        "titleBarStyle": "hiddenInset"
+        "titleBarStyle": "customButtonsOnHover"
     },
     "apc.header": {
         "height": 36
@@ -46,8 +46,10 @@
         ".nosidebar .inline-tabs-placeholder": "width: 75px",
         ".pane-header": "padding: 0 8px",
         ".split-view-view:first-child .pane-header": "display: none !important;",
-        ".monaco-list-row": "border-radius: 4px;",
-        ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;"
+        ".monaco-list-row": "padding-left: 10px !important;",
+        ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;",
+        ".monaco-workbench .part.title": "display: none;",
+        ".monaco-tl-twistie": "display: none !important;",
     },
     "workbench.editor.enablePreview": false,
     "workbench.colorTheme": "Vim Dark Hard",
@@ -56,5 +58,6 @@
         "zsh": {
             "path": "/bin/zsh"
         }
-    }
+    },
+    "vscord.app.name": "VSCodium"
 }
