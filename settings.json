@@ -53,5 +53,6 @@
             "path": "/bin/zsh"
         }
     },
-    "vscord.app.name": "VSCodium"
+    "vscord.app.name": "VSCodium",
+    "workbench.tips.enabled": false
 }
