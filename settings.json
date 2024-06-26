@@ -43,16 +43,17 @@
         ".title-label > h2": "display: none",
         ".editor-actions": "display: none",
         ".split-view-view:first-child .pane-header": "display: none !important;",
-        ".monaco-tl-twistie": "display: none",
+        ".monaco-tl-twistie": "display: none"
     },
     "workbench.editor.enablePreview": false,
-    "workbench.colorTheme": "Vim Dark Hard",
     "terminal.integrated.defaultProfile.linux": "zsh",
     "terminal.integrated.profiles.linux": {
         "zsh": {
             "path": "/bin/zsh"
         }
     },
-    "vscord.app.name": "VSCodium",
-    "workbench.tips.enabled": false
+    "workbench.tips.enabled": false,
+    "workbench.colorTheme": "Rosé Pine Dawn",
+    "workbench.iconTheme": "symbols",
+    "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: GNU, IndentWidth: 4, TabWidth: 4, ColumnLimit: 0, BreakBeforeBraces: Custom, SpaceBeforeParens: ControlStatements, BraceWrapping: { AfterFunction: true, AfterControlStatement: false, AfterClass: false, AfterEnum: false, AfterNamespace: false, BeforeCatch: false, BeforeElse: false, IndentBraces: false } }"
 }
