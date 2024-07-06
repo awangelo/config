@@ -42,7 +42,7 @@
         ".title-label > h2": "display: none",
         ".editor-actions": "display: none",
         ".split-view-view:first-child .pane-header": "display: none !important;",
-        ".monaco-tl-twistie": "display: none",
+        ".monaco-tl-twistie": "display: none"
     },
     "workbench.editor.enablePreview": false,
     "terminal.integrated.defaultProfile.linux": "zsh",
@@ -52,10 +52,21 @@
         }
     },
     "workbench.tips.enabled": false,
-    "workbench.colorTheme": "Rosé Pine Moon (no italics)",
+    "workbench.colorTheme": "yuyuko-vim-vsc",
     "workbench.iconTheme": "symbols",
     "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
-    "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: GNU, IndentWidth: 4, TabWidth: 4, ColumnLimit: 0, BreakBeforeBraces: Custom, SpaceBeforeParens: ControlStatements, BraceWrapping: { AfterFunction: true, AfterControlStatement: false, AfterClass: false, AfterEnum: false, AfterNamespace: false, BeforeCatch: false, BeforeElse: false, IndentBraces: false } }",
+    "terminal.integrated.fontSize": 15,
+    "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: GNU, IndentWidth: 4, TabWidth: 4, ColumnLimit: 0, BreakBeforeBraces: Custom, SpaceBeforeParens: ControlStatements, AlignConsecutiveMacros: true, AlignConsecutiveDeclarations: false, AlignConsecutiveAssignments: true, AlignArrayOfStructures: Right, BraceWrapping: { AfterFunction: true, AfterControlStatement: false, AfterClass: false, AfterEnum: false, AfterNamespace: false, BeforeCatch: false, BeforeElse: false, IndentBraces: false } }",
     "window.customTitleBarVisibility": "auto",
-    "c-cpp-compile-run.output-location": ""
+    "c-cpp-compile-run.output-location": "",
+    "editor.formatOnSave": true,
+    "vscord.status.idle.resetElapsedTime": true,
+    "vscord.status.details.text.idle": "",
+    "vscord.status.details.text.notInFile": "",
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    }
 }
