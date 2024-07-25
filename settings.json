@@ -8,7 +8,7 @@
     "editor.fontWeight": "450",
     "workbench.startupEditor": "newUntitledFile",
     "editor.renderLineHighlight": "gutter",
-    "workbench.editor.labelFormat": "short",
+    "workbench.editor.labelFormat": "default",
     "explorer.compactFolders": false,
     "editor.semanticHighlighting.enabled": false,
     "breadcrumbs.enabled": false,
@@ -57,7 +57,7 @@
     },
     "workbench.tips.enabled": false,
     "workbench.colorTheme": "Catppuccin Mocha",
-    "workbench.iconTheme": "icons",
+    "workbench.iconTheme": "catppuccin-mocha",
     "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
     "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: GNU, IndentWidth: 4, TabWidth: 4, ColumnLimit: 0, BreakBeforeBraces: Custom, SpaceBeforeParens: ControlStatements, AlignConsecutiveMacros: true, AlignConsecutiveDeclarations: false, AlignConsecutiveAssignments: true, AlignArrayOfStructures: Right, BraceWrapping: { AfterFunction: true, AfterControlStatement: false, AfterClass: false, AfterEnum: false, AfterNamespace: false, BeforeCatch: false, BeforeElse: false, IndentBraces: false } }",
     "window.customTitleBarVisibility": "auto",
@@ -73,8 +73,9 @@
         "scminput": false
     },
     "php.validate.executablePath": "/opt/lampp/bin/php",
-    "vscord.status.details.text.viewing": "{Lang} {problems}",
-    "vscord.status.details.text.editing": "Working on {file_name}{file_extension}:{current_line}:{current_column}",
-    "vscord.status.state.text.editing": "{problems}",
-    "vscord.status.problems.text": "{problems_count} problems found"
+    "editor.fontLigatures": true,
+    //"vscord.status.details.text.viewing": "{Lang} {problems}",
+    //"vscord.status.details.text.editing": "Working on {file_name}{file_extension}:{current_line}:{current_column}",
+    //"vscord.status.state.text.editing": "{problems}",
+    //"vscord.status.problems.text": "{problems_count} problems found"
 }
