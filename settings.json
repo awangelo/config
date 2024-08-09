@@ -2,8 +2,7 @@
     "C_Cpp.default.compilerPath": "/usr/bin/gcc",
     "security.workspace.trust.untrustedFiles": "open",
     "editor.mouseWheelZoom": true,
-    "symbols.hidesExplorerArrows": false,
-    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontFamily": "JetBrainsMono Nerd Font",
     "editor.lineHeight": 1.4,
     "editor.fontWeight": "450",
     "workbench.startupEditor": "newUntitledFile",
@@ -22,7 +21,7 @@
     "window.commandCenter": false,
     "liveServer.settings.donotShowInfoMsg": true,
     "window.titleBarStyle": "custom",
-    "window.title": "≽^•⩊•^≼",
+    "window.title": "${dirty}${activeEditorShort}",
     "window.menuBarVisibility": "compact",
     "explorer.confirmDragAndDrop": false,
     "editor.cursorSmoothCaretAnimation": "explicit",
@@ -45,10 +44,11 @@
         ".monaco-tl-twistie": "display: none",
         ".editor .title": "background: transparent !important",
         ".editor .scrollbar .slider": "visibility: hidden",
-        ".editor .scrollbar:hover .slider": "visibility: initial"
+        ".editor .scrollbar:hover .slider": "visibility: initial",
+        ".sidebar.part.sidebar.left.pane-composite-part .composite.title": "display: none",
+        ".monaco-list-rows": "top: 10px !important",
     },
     "workbench.editor.enablePreview": false,
-    "workbench.editor.tabActionCloseVisibility": false,
     "terminal.integrated.defaultProfile.linux": "zsh",
     "terminal.integrated.profiles.linux": {
         "zsh": {
@@ -57,25 +57,16 @@
     },
     "workbench.tips.enabled": false,
     "workbench.colorTheme": "Catppuccin Mocha",
-    "workbench.iconTheme": "catppuccin-mocha",
     "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
     "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: GNU, IndentWidth: 4, TabWidth: 4, ColumnLimit: 0, BreakBeforeBraces: Custom, SpaceBeforeParens: ControlStatements, AlignConsecutiveMacros: true, AlignConsecutiveDeclarations: false, AlignConsecutiveAssignments: true, AlignArrayOfStructures: Right, BraceWrapping: { AfterFunction: true, AfterControlStatement: false, AfterClass: false, AfterEnum: false, AfterNamespace: false, BeforeCatch: false, BeforeElse: false, IndentBraces: false } }",
     "window.customTitleBarVisibility": "auto",
     "c-cpp-compile-run.output-location": "",
     "editor.formatOnSave": true,
-    "vscord.status.idle.resetElapsedTime": true,
-    "vscord.status.details.text.idle": "",
-    "vscord.status.details.text.notInFile": "",
     "github.copilot.enable": {
         "*": false,
         "plaintext": false,
         "markdown": false,
         "scminput": false
     },
-    "php.validate.executablePath": "/opt/lampp/bin/php",
-    "editor.fontLigatures": true,
-    //"vscord.status.details.text.viewing": "{Lang} {problems}",
-    //"vscord.status.details.text.editing": "Working on {file_name}{file_extension}:{current_line}:{current_column}",
-    //"vscord.status.state.text.editing": "{problems}",
-    //"vscord.status.problems.text": "{problems_count} problems found"
+    "workbench.iconTheme": "catppuccin-mocha"
 }
