@@ -1,37 +1,78 @@
 {
-    "C_Cpp.default.compilerPath": "/usr/bin/gcc",
-    "security.workspace.trust.untrustedFiles": "open",
-    "editor.mouseWheelZoom": true,
-    "symbols.hidesExplorerArrows": false,
     "editor.fontFamily": "JetBrainsMono Nerd Font",
     "editor.fontWeight": "450",
     "editor.lineHeight": 1.4,
-    "workbench.startupEditor": "newUntitledFile",
     "editor.renderLineHighlight": "gutter",
-    "workbench.editor.labelFormat": "default",
-    "explorer.compactFolders": false,
     "editor.semanticHighlighting.enabled": false,
-    "breadcrumbs.enabled": false,
-    "workbench.activityBar.location": "hidden",
     "editor.minimap.enabled": false,
     "editor.scrollbar.horizontal": "hidden",
-    "workbench.statusBar.visible": false,
-    "explorer.confirmDelete": false,
     "editor.inlineSuggest.suppressSuggestions": true,
+    "editor.cursorSmoothCaretAnimation": "explicit",
+    "editor.fontLigatures": true,
+    "editor.cursorStyle": "block",
+    "editor.unicodeHighlight.nonBasicASCII": false,
+
+    "workbench.startupEditor": "none",
+    "workbench.editor.labelFormat": "default",
+    "workbench.activityBar.location": "hidden",
+    "workbench.statusBar.visible": false,
     "workbench.layoutControl.enabled": false,
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.tabActionCloseVisibility": false,
+    "workbench.tips.enabled": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Min Dark",
+
+    "explorer.compactFolders": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+
     "window.commandCenter": false,
-    "liveServer.settings.donotShowInfoMsg": true,
     "window.titleBarStyle": "custom",
     "window.title": "≽^•⩊•^≼",
     "window.menuBarVisibility": "compact",
-    "explorer.confirmDragAndDrop": false,
-    "editor.cursorSmoothCaretAnimation": "explicit",
-    "apc.imports": [
-        "file://${userHome}/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.3/dist/updateHandler.js"
-    ],
-    //"apc.electron": {
-    //    "titleBarStyle": "hiddenInset"
-    //},
+    "window.customTitleBarVisibility": "auto",
+
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "terminal.integrated.profiles.linux": {
+        "zsh": {
+            "path": "/bin/zsh"
+        }
+    },
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+
+    "C_Cpp.default.compilerPath": "/usr/bin/gcc",
+    "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: GNU, IndentWidth: 4, TabWidth: 4, ColumnLimit: 0, BreakBeforeBraces: Custom, SpaceBeforeParens: ControlStatements, AlignConsecutiveMacros: true, AlignConsecutiveDeclarations: false, AlignConsecutiveAssignments: true, AlignArrayOfStructures: Right, BraceWrapping: { AfterFunction: true, AfterControlStatement: false, AfterClass: false, AfterEnum: false, AfterNamespace: false, BeforeCatch: false, BeforeElse: false, IndentBraces: false } }",
+    "c-cpp-compile-run.output-location": "",
+
+    "go.toolsManagement.autoUpdate": true,
+    "files.associations": {
+        "*.gohtml": "html",
+        "*.tmpl": "html"
+    },
+    "gopls": {
+        "ui.codelenses": {
+            "gc_details": true
+        }
+    },
+
+    "security.workspace.trust.untrustedFiles": "open",
+
+    "liveServer.settings.donotShowInfoMsg": true,
+
+    "update.mode": "manual",
+
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": true,
+        "scminput": false
+    },
+
+    "vscord.status.idle.resetElapsedTime": true,
+    "vscord.status.details.text.idle": "",
+    "vscord.status.details.text.notInFile": "",
+
     "apc.header": {
         "height": 36
     },
@@ -40,45 +81,11 @@
     },
     "apc.stylesheet": {
         ".title-label > h2": "display: none",
-        ".editor-actions": "display: none",
+        ".editor-actions": "display: none !important;",
         ".split-view-view:first-child .pane-header": "display: none !important;",
         ".monaco-tl-twistie": "display: none",
         ".editor .title": "background: transparent !important",
         ".editor .scrollbar .slider": "visibility: hidden",
         ".editor .scrollbar:hover .slider": "visibility: initial"
-    },
-    "workbench.editor.enablePreview": false,
-    "workbench.editor.tabActionCloseVisibility": false,
-    "terminal.integrated.defaultProfile.linux": "zsh",
-    "terminal.integrated.profiles.linux": {
-        "zsh": {
-            "path": "/bin/zsh"
-        }
-    },
-    "workbench.tips.enabled": false,
-    "workbench.colorTheme": "Catppuccin Latte",
-    "workbench.iconTheme": "catppuccin-latte",
-    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
-    "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: GNU, IndentWidth: 4, TabWidth: 4, ColumnLimit: 0, BreakBeforeBraces: Custom, SpaceBeforeParens: ControlStatements, AlignConsecutiveMacros: true, AlignConsecutiveDeclarations: false, AlignConsecutiveAssignments: true, AlignArrayOfStructures: Right, BraceWrapping: { AfterFunction: true, AfterControlStatement: false, AfterClass: false, AfterEnum: false, AfterNamespace: false, BeforeCatch: false, BeforeElse: false, IndentBraces: false } }",
-    "window.customTitleBarVisibility": "auto",
-    "c-cpp-compile-run.output-location": "",
-    "vscord.status.idle.resetElapsedTime": true,
-    "vscord.status.details.text.idle": "",
-    "vscord.status.details.text.notInFile": "",
-    "github.copilot.enable": {
-        "*": true,
-        "plaintext": false,
-        "markdown": false,
-        "scminput": false
-    },
-    "php.validate.executablePath": "/opt/lampp/bin/php",
-    "editor.fontLigatures": true,
-    "liveServer.settings.port": 1213,
-    "update.mode": "manual",
-    "editor.cursorStyle": "block",
-    "go.toolsManagement.autoUpdate": true
-    //"vscord.status.details.text.viewing": "{Lang} {problems}",
-    //"vscord.status.details.text.editing": "Working on {file_name}{file_extension}:{current_line}:{current_column}",
-    //"vscord.status.state.text.editing": "{problems}",
-    //"vscord.status.problems.text": "{problems_count} problems found"
+    }
 }
