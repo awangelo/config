@@ -47,6 +47,11 @@
         "when": "editorTextFocus"
     },
     {
+        "key": "ctrl+shift+\\",
+        "command": "editor.action.selectToBracket",
+        "when": "editorTextFocus"
+    },
+    {
         "key": "ctrl+up",
         "command": "spaceBlockJumper.moveUp",
         "when": "editorTextFocus"
