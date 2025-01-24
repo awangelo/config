@@ -70,5 +70,10 @@
         "key": "shift+ctrl+down",
         "command": "spaceBlockJumper.selectDown",
         "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "-github.copilot.generate",
+        "when": "editorTextFocus && github.copilot.activated && !commentEditorFocused && !inInteractiveInput && !interactiveEditorFocused"
     }
 ]
