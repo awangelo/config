@@ -11,6 +11,7 @@
     "editor.fontLigatures": true,
     "editor.cursorStyle": "block",
     "editor.unicodeHighlight.nonBasicASCII": false,
+    "editor.mouseWheelZoom": true,
 
     "workbench.startupEditor": "none",
     "workbench.editor.labelFormat": "default",
@@ -72,6 +73,7 @@
     "vscord.status.idle.resetElapsedTime": true,
     "vscord.status.details.text.idle": "",
     "vscord.status.details.text.notInFile": "",
+    "vscord.status.idle.check": false,
 
     "apc.header": {
         "height": 36
