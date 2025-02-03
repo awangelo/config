@@ -28,6 +28,7 @@
     "git_status": true
   },
   "toolbar": {
+    "breadcrumbs": false,
     "quick_actions": false
   },
   "git": {
