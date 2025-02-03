@@ -1,0 +1,42 @@
+// Zed keymap
+//
+// For information on binding keys, see the Zed
+// documentation: https://zed.dev/docs/key-bindings
+//
+// To see the default key bindings run `zed: open default keymap`
+// from the command palette.
+[
+    {
+      "bindings": {
+        "ctrl-q": null,
+        "shift shift": "file_finder::Toggle",
+        "shift tab": "command_palette::Toggle",
+        "shift-tab": "command_palette::Toggle",
+        "ctrl-shift-i": "assistant::ToggleFocus"
+      }
+    },
+    {
+      "context": "Editor",
+      "bindings": {
+        "ctrl-alt-up": "editor::AddSelectionAbove",
+        "ctrl-alt-down": "editor::AddSelectionBelow",
+        "shift-alt-up": "editor::DuplicateLineUp",
+        "shift-alt-down": "editor::DuplicateLineUp",
+        "ctrl-enter": "editor::NewlineBelow",
+        "ctrl-i": "assistant::InlineAssist",
+        "ctrl-\\": "editor::MoveToEnclosingBracket",
+        "ctrl-|": "editor::SelectLargerSyntaxNode",
+        "ctrl-up": "editor::MoveToStartOfParagraph",
+        "ctrl-down": "editor::MoveToEndOfParagraph",
+        "ctrl-shift-up": "editor::SelectToStartOfParagraph",
+        "ctrl-shift-down": "editor::SelectToEndOfParagraph"
+      }
+    },
+    {
+      "context": "ContextEditor > Editor",
+      "bindings": {
+        "ctrl-enter": "assistant::Assist"
+      }
+    }
+  ]
+  
