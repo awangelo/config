@@ -43,5 +43,11 @@
     "mode": "system",
     "light": "Catppuccin Mocha",
     "dark": "One Dark"
+  },
+
+  "languages": {
+    "C++": {
+      "format_on_save": "on"
+    }
   }
 }
