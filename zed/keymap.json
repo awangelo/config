@@ -24,6 +24,7 @@
       "shift-alt-down": "editor::DuplicateLineUp",
       "ctrl-enter": "editor::NewlineBelow",
       "ctrl-i": "assistant::InlineAssist",
+      "ctrl-r": "editor::GoToDefinition",
       "ctrl-\\": "editor::MoveToEnclosingBracket",
       "ctrl-|": "editor::SelectLargerSyntaxNode",
       "ctrl-up": "editor::MoveToStartOfParagraph",
