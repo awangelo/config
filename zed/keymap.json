@@ -23,6 +23,7 @@
       "shift-alt-up": "editor::DuplicateLineUp",
       "shift-alt-down": "editor::DuplicateLineUp",
       "ctrl-enter": "editor::NewlineBelow",
+      "ctrl-shift-enter": "editor::NewlineAbove",
       "ctrl-i": "assistant::InlineAssist",
       "ctrl-r": "editor::GoToDefinition",
       "ctrl-\\": "editor::MoveToEnclosingBracket",
