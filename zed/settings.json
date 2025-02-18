@@ -7,10 +7,13 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "features": {
+    "edit_prediction_provider": "copilot"
+  },
   "assistant": {
     "default_model": {
-      "provider": "zed.dev",
-      "model": "claude-3-5-sonnet-latest"
+      "provider": "copilot_chat",
+      "model": "o3-mini"
     },
     "version": "2"
   },
@@ -35,6 +38,12 @@
     "inline_blame": {
       "enabled": false
     }
+  },
+  "gutter": {
+    "line_numbers": true,
+    "code_actions": false,
+    "runnables": true,
+    "folds": false
   },
   "preview_tabs": {
     "enabled": false
