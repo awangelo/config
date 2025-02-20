@@ -48,11 +48,7 @@
   "preview_tabs": {
     "enabled": false
   },
-  "theme": {
-    "mode": "system",
-    "light": "Catppuccin Mocha",
-    "dark": "One Dark"
-  },
+  "theme": "Catppuccin Mocha",
 
   "languages": {
     "C++": {
