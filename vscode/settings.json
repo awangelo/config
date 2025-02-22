@@ -1,6 +1,7 @@
 {
     "editor.fontFamily": "JetBrainsMono Nerd Font",
     "editor.fontWeight": "450",
+    "editor.formatOnSave": true,
     "editor.lineHeight": 1.4,
     "editor.renderLineHighlight": "gutter",
     "editor.semanticHighlighting.enabled": false,
@@ -22,7 +23,7 @@
     "workbench.editor.tabActionCloseVisibility": false,
     "workbench.tips.enabled": false,
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Min Dark",
+    "workbench.colorTheme": "Catppuccin Mocha",
 
     "explorer.compactFolders": false,
     "explorer.confirmDelete": false,
@@ -89,5 +90,6 @@
         ".editor .title": "background: transparent !important",
         ".editor .scrollbar .slider": "visibility: hidden",
         ".editor .scrollbar:hover .slider": "visibility: initial"
-    }
+    },
+    "haskell.manageHLS": "GHCup"
 }
