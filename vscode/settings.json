@@ -1,95 +1,77 @@
 {
-    "editor.fontFamily": "JetBrainsMono Nerd Font",
-    "editor.fontWeight": "450",
-    "editor.formatOnSave": true,
-    "editor.lineHeight": 1.4,
-    "editor.renderLineHighlight": "gutter",
-    "editor.semanticHighlighting.enabled": false,
-    "editor.minimap.enabled": false,
-    "editor.scrollbar.horizontal": "hidden",
-    "editor.inlineSuggest.suppressSuggestions": true,
-    "editor.cursorSmoothCaretAnimation": "explicit",
-    "editor.fontLigatures": true,
-    "editor.cursorStyle": "block",
-    "editor.unicodeHighlight.nonBasicASCII": false,
-    "editor.mouseWheelZoom": true,
-
+    "security.workspace.trust.enabled": false,
+    "breadcrumbs.enabled": false,
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+    "chat.commandCenter.enabled": false,
+    "workbench.colorTheme": "Gruvbox Dark Hard",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.tips.enabled": false,
     "workbench.startupEditor": "none",
-    "workbench.editor.labelFormat": "default",
+    "workbench.editor.showTabs": "multiple",
     "workbench.activityBar.location": "hidden",
-    "workbench.statusBar.visible": false,
-    "workbench.layoutControl.enabled": false,
     "workbench.editor.enablePreview": false,
     "workbench.editor.tabActionCloseVisibility": false,
-    "workbench.tips.enabled": false,
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Catppuccin Mocha",
-
+    "workbench.layoutControl.enabled": false,
+    "workbench.editor.empty.hint": "hidden",
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontWeight": "450",
+    "editor.minimap.enabled": false,
+    "editor.semanticHighlighting.enabled": true,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.mouseWheelZoom": true,
+    "window.commandCenter": false,
+    "window.density.editorTabHeight": "compact",
+    "window.menuBarVisibility": "hidden",
+    "window.restoreWindows": "none",
+    "window.title": "${dirty}${activeEditorShort}${separator}${rootName}",
     "explorer.compactFolders": false,
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
-
-    "window.commandCenter": false,
-    "window.titleBarStyle": "custom",
-    "window.title": "≽^•⩊•^≼",
-    "window.menuBarVisibility": "compact",
-    "window.customTitleBarVisibility": "auto",
-
-    "terminal.integrated.defaultProfile.linux": "zsh",
-    "terminal.integrated.profiles.linux": {
-        "zsh": {
-            "path": "/bin/zsh"
-        }
+    // START vim
+    "vim.useSystemClipboard": true,
+    "vim.hlsearch": true,
+    "vim.incsearch": true,
+    "vim.ignorecase": true,
+    "vim.smartcase": true,
+    "vim.sneak": true,
+    "vim.highlightedyank.enable": true,
+    "vim.smartRelativeLine": true,
+    "vim.handleKeys": {
+        "<C-Up>": false,
+        "<C-Down>": false,
+        "<C-S-Up>": false,
+        "<C-S-Down>": false,
+        "<C-w>": false,
+        "<C-j>": false,
+        "<C-b>": false,
+        "<C-c>": false,
+        "<C-v>": false,
+        "<C-a>": false,
+        "<C-r>": false,
+        "X": false
     },
-    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
-
-    "C_Cpp.default.compilerPath": "/usr/bin/gcc",
-    "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: GNU, IndentWidth: 4, TabWidth: 4, ColumnLimit: 0, BreakBeforeBraces: Custom, SpaceBeforeParens: ControlStatements, AlignConsecutiveMacros: true, AlignConsecutiveDeclarations: false, AlignConsecutiveAssignments: true, AlignArrayOfStructures: Right, BraceWrapping: { AfterFunction: true, AfterControlStatement: false, AfterClass: false, AfterEnum: false, AfterNamespace: false, BeforeCatch: false, BeforeElse: false, IndentBraces: false } }",
-    "c-cpp-compile-run.output-location": "",
-
-    "go.toolsManagement.autoUpdate": true,
-    "files.associations": {
-        "*.gohtml": "html",
-        "*.tmpl": "html"
+    "vim.statusBarColorControl": true,
+    "vim.statusBarColors.normal": [
+        "#282828",
+        "#e2cca9"
+    ],
+    "vim.statusBarColors.insert": [
+        "#333e34",
+        "#e2cca9"
+    ],
+    "vim.statusBarColors.visual": [
+        "#2e3b3b",
+        "#e2cca9"
+    ],
+    "vim.statusBarColors.replace": [
+        "#442e2d",
+        "#e2cca9"
+    ],
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#282828",
+        "statusBar.noFolderBackground": "#282828",
+        "statusBar.debuggingBackground": "#282828",
+        "statusBar.foreground": "#e2cca9",
+        "statusBar.debuggingForeground": "#e2cca9"
     },
-    "gopls": {
-        "ui.codelenses": {
-            "gc_details": true
-        }
-    },
-
-    "security.workspace.trust.untrustedFiles": "open",
-
-    "liveServer.settings.donotShowInfoMsg": true,
-
-    "update.mode": "manual",
-
-    "github.copilot.enable": {
-        "*": true,
-        "plaintext": false,
-        "markdown": true,
-        "scminput": false
-    },
-
-    "vscord.status.idle.resetElapsedTime": true,
-    "vscord.status.details.text.idle": "",
-    "vscord.status.details.text.notInFile": "",
-    "vscord.status.idle.check": false,
-
-    "apc.header": {
-        "height": 36
-    },
-    "apc.listRow": {
-        "height": 23
-    },
-    "apc.stylesheet": {
-        ".title-label > h2": "display: none",
-        ".editor-actions": "display: none !important;",
-        ".split-view-view:first-child .pane-header": "display: none !important;",
-        ".monaco-tl-twistie": "display: none",
-        ".editor .title": "background: transparent !important",
-        ".editor .scrollbar .slider": "visibility: hidden",
-        ".editor .scrollbar:hover .slider": "visibility: initial"
-    },
-    "haskell.manageHLS": "GHCup"
 }

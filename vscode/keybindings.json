@@ -1,60 +1,57 @@
 [
     {
-        "key": "shift+alt+f",
+        "key": "alt+shift+f",
         "command": "editor.action.formatDocument",
-        "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+        "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly",
     },
     {
-        "key": "shift+tab",
-        "command": "workbench.action.showCommands"
-    },
-    {
-        "key": "shift shift",
-        "command": "workbench.action.quickOpen"
+        "key": "ctrl+t",
+        "command": "workbench.action.files.newUntitledFile",
+        "when": "editorTextFocus"
     },
     {
         "key": "ctrl+r",
         "command": "editor.action.revealDefinition",
-        "when": "editorHasDefinitionProvider && editorTextFocus"
+        "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
     },
     {
-        "key": "ctrl+q",
-        "command": "workbench.action.quickOpenView"
-    },
-    {
-        "key": "ctrl+q",
-        "command": "workbench.action.quickOpenNavigateNextInViewPicker",
-        "when": "inQuickOpen && inViewsPicker"
-    },
-    {
-        "key": "alt+ctrl+up",
-        "command": "editor.action.insertCursorAbove",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "alt+ctrl+down",
-        "command": "editor.action.insertCursorBelow",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "alt+shift+up",
-        "command": "editor.action.copyLinesUpAction",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "alt+shift+down",
-        "command": "editor.action.copyLinesDownAction",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "ctrl+\\",
-        "command": "editor.action.jumpToBracket",
+        "key": "alt+shift+right",
+        "command": "workbench.action.moveEditorToNextGroup",
         "when": "editorTextFocus"
     },
     {
-        "key": "ctrl+shift+\\",
-        "command": "editor.action.selectToBracket",
+        "key": "alt+shift+left",
+        "command": "workbench.action.moveEditorToFirstGroup",
         "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+1",
+        "command": "workbench.action.focusFirstEditorGroup"
+    },
+    {
+        "key": "ctrl+2",
+        "command": "workbench.action.focusSecondEditorGroup"
+    },
+    {
+        "key": "alt+right",
+        "command": "workbench.action.focusSecondEditorGroup"
+    },
+    {
+        "key": "alt+left",
+        "command": "workbench.action.focusFirstEditorGroup"
+    },
+    {
+        "key": "shift shift",
+        "command": "workbench.action.quickOpen",
+    },
+    {
+        "key": "shift+tab",
+        "command": "workbench.action.showCommands",
+    },
+    {
+        "key": "shift+x",
+        "command": "workbench.action.reopenClosedEditor",
+        "when": "editorTextFocus && vim.mode == 'Normal'"
     },
     {
         "key": "ctrl+up",
@@ -77,8 +74,51 @@
         "when": "editorTextFocus"
     },
     {
-        "key": "ctrl+enter",
-        "command": "-github.copilot.generate",
-        "when": "editorTextFocus && github.copilot.activated && !commentEditorFocused"
-    }
+        "key": "ctrl+\\",
+        "command": "editor.action.jumpToBracket",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+\\",
+        "command": "editor.action.selectToBracket",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+ctrl+up",
+        "command": "editor.action.insertCursorAbove",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+ctrl+down",
+        "command": "editor.action.insertCursorBelow",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+shift+down",
+        "command": "editor.action.copyLinesUpAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+shift+up",
+        "command": "editor.action.copyLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+q",
+        "command": "workbench.action.quickOpenView"
+    },
+    {
+        "key": "ctrl+q",
+        "command": "workbench.action.quickOpenNavigateNextInViewPicker",
+        "when": "inQuickOpen && inViewsPicker"
+    },
+    {
+        "key": "ctrl+r",
+        "command": "-inlineChat.regenerate",
+        "when": "inlineChatHasProvider && inlineChatVisible"
+    },
+    {
+        "key": "ctrl+r",
+        "command": "-workbench.action.openRecent"
+    },
 ]
