@@ -4,6 +4,7 @@
     "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
     "chat.commandCenter.enabled": false,
     "workbench.colorTheme": "Gruvbox Dark Hard",
+    "files.dialog.defaultPath": "/home/angelo",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.tips.enabled": false,
     "workbench.startupEditor": "none",
@@ -27,6 +28,8 @@
     "explorer.compactFolders": false,
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
+    "telemetry.feedback.enabled": false,
+    "telemetry.telemetryLevel": "off",
     // START vim
     "vim.useSystemClipboard": true,
     "vim.hlsearch": true,
@@ -74,4 +77,10 @@
         "statusBar.foreground": "#e2cca9",
         "statusBar.debuggingForeground": "#e2cca9"
     },
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": true,
+        "scminput": false
+    }
 }
