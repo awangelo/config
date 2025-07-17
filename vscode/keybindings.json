@@ -5,9 +5,13 @@
         "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly",
     },
     {
+        "key": "ctrl+alt+b",
+        "command": "workbench.action.focusAuxiliaryBar",
+        "when": "editorTextFocus"
+    },
+    {
         "key": "ctrl+t",
         "command": "workbench.action.files.newUntitledFile",
-        "when": "editorTextFocus"
     },
     {
         "key": "ctrl+r",
@@ -94,12 +98,12 @@
         "when": "editorTextFocus && !editorReadonly"
     },
     {
-        "key": "alt+shift+down",
+        "key": "alt+shift+up",
         "command": "editor.action.copyLinesUpAction",
         "when": "editorTextFocus && !editorReadonly"
     },
     {
-        "key": "alt+shift+up",
+        "key": "alt+shift+down",
         "command": "editor.action.copyLinesDownAction",
         "when": "editorTextFocus && !editorReadonly"
     },
@@ -120,5 +124,18 @@
     {
         "key": "ctrl+r",
         "command": "-workbench.action.openRecent"
+    },
+    {
+        "key": "alt+h",
+        "command": "extension.hoogle"
+    },
+    {
+        "key": "ctrl+shift+enter",
+        "command": "-lean4.toggleInfoview",
+        "when": "lean4.isLeanFeatureSetActive"
+    },
+    {
+        "key": "shift+alt+l",
+        "command": "lean4.toggleInfoview"
     },
 ]
