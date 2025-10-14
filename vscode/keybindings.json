@@ -1,17 +1,29 @@
 [
     {
-        "key": "alt+shift+f",
-        "command": "editor.action.formatDocument",
-        "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly",
-    },
-    {
-        "key": "ctrl+alt+b",
-        "command": "workbench.action.focusAuxiliaryBar",
-        "when": "editorTextFocus"
-    },
-    {
         "key": "ctrl+t",
         "command": "workbench.action.files.newUntitledFile",
+    },
+    {
+        "key": "shift+x",
+        "command": "workbench.action.reopenClosedEditor",
+        "when": "editorTextFocus && vim.mode == 'Normal'"
+    },
+    {
+        "key": "shift shift",
+        "command": "workbench.action.quickOpen",
+    },
+    {
+        "key": "shift+tab",
+        "command": "workbench.action.showCommands",
+    },
+    {
+        "key": "ctrl+q",
+        "command": "workbench.action.quickOpenView"
+    },
+    {
+        "key": "ctrl+q",
+        "command": "workbench.action.quickOpenNavigateNextInViewPicker",
+        "when": "inQuickOpen && inViewsPicker"
     },
     {
         "key": "ctrl+r",
@@ -19,13 +31,8 @@
         "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
     },
     {
-        "key": "alt+shift+right",
-        "command": "workbench.action.moveEditorToNextGroup",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "alt+shift+left",
-        "command": "workbench.action.moveEditorToFirstGroup",
+        "key": "ctrl+shift+r",
+        "command": "workbench.action.navigateBack",
         "when": "editorTextFocus"
     },
     {
@@ -37,25 +44,27 @@
         "command": "workbench.action.focusSecondEditorGroup"
     },
     {
-        "key": "alt+right",
-        "command": "workbench.action.focusSecondEditorGroup"
-    },
-    {
         "key": "alt+left",
         "command": "workbench.action.focusFirstEditorGroup"
     },
     {
-        "key": "shift shift",
-        "command": "workbench.action.quickOpen",
+        "key": "alt+right",
+        "command": "workbench.action.focusSecondEditorGroup"
     },
     {
-        "key": "shift+tab",
-        "command": "workbench.action.showCommands",
+        "key": "alt+shift+left",
+        "command": "workbench.action.moveEditorToFirstGroup",
+        "when": "editorTextFocus"
     },
     {
-        "key": "shift+x",
-        "command": "workbench.action.reopenClosedEditor",
-        "when": "editorTextFocus && vim.mode == 'Normal'"
+        "key": "alt+shift+right",
+        "command": "workbench.action.moveEditorToNextGroup",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+b",
+        "command": "workbench.action.focusAuxiliaryBar",
+        "when": "editorTextFocus"
     },
     {
         "key": "ctrl+up",
@@ -88,6 +97,11 @@
         "when": "editorTextFocus"
     },
     {
+        "key": "alt+shift+f",
+        "command": "editor.action.formatDocument",
+        "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly",
+    },
+    {
         "key": "alt+ctrl+up",
         "command": "editor.action.insertCursorAbove",
         "when": "editorTextFocus && !editorReadonly"
@@ -108,13 +122,22 @@
         "when": "editorTextFocus && !editorReadonly"
     },
     {
-        "key": "ctrl+q",
-        "command": "workbench.action.quickOpenView"
+        "key": "ctrl+shift+/",
+        "command": "editor.action.showHover",
+        "when": "editorTextFocus"
     },
     {
-        "key": "ctrl+q",
-        "command": "workbench.action.quickOpenNavigateNextInViewPicker",
-        "when": "inQuickOpen && inViewsPicker"
+        "key": "alt+h",
+        "command": "extension.hoogle"
+    },
+    {
+        "key": "shift+alt+l",
+        "command": "lean4.toggleInfoview"
+    },
+    {
+        "key": "ctrl+shift+[",
+        "command": "-lean4.toggleInfoview",
+        "when": "lean4.isLeanFeatureSetActive"
     },
     {
         "key": "ctrl+r",
@@ -124,18 +147,5 @@
     {
         "key": "ctrl+r",
         "command": "-workbench.action.openRecent"
-    },
-    {
-        "key": "alt+h",
-        "command": "extension.hoogle"
-    },
-    {
-        "key": "ctrl+shift+enter",
-        "command": "-lean4.toggleInfoview",
-        "when": "lean4.isLeanFeatureSetActive"
-    },
-    {
-        "key": "shift+alt+l",
-        "command": "lean4.toggleInfoview"
-    },
+    }
 ]
