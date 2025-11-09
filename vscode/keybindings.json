@@ -31,9 +31,23 @@
         "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
     },
     {
+        "key": "alt+r",
+        "command": "editor.action.revealDefinition",
+        "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+    },
+    {
         "key": "ctrl+shift+r",
         "command": "workbench.action.navigateBack",
         "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+shift+r",
+        "command": "workbench.action.navigateBack",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+r",
+        "command": "workbench.action.splitEditorUp"
     },
     {
         "key": "ctrl+1",
@@ -135,11 +149,6 @@
         "command": "lean4.toggleInfoview"
     },
     {
-        "key": "ctrl+shift+[",
-        "command": "-lean4.toggleInfoview",
-        "when": "lean4.isLeanFeatureSetActive"
-    },
-    {
         "key": "ctrl+r",
         "command": "-inlineChat.regenerate",
         "when": "inlineChatHasProvider && inlineChatVisible"
@@ -147,5 +156,20 @@
     {
         "key": "ctrl+r",
         "command": "-workbench.action.openRecent"
+    },
+    {
+        "key": "ctrl+shift+enter",
+        "command": "-lean4.toggleInfoview",
+        "when": "lean4.isLeanFeatureSetActive"
+    },
+    {
+        "key": "alt+r",
+        "command": "-toggleFindRegex",
+        "when": "editorFocus"
+    },
+    {
+        "key": "alt+r",
+        "command": "-toggleSearchRegex",
+        "when": "searchViewletFocus"
     }
 ]

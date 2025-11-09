@@ -27,8 +27,11 @@
             "titleBar.activeBackground": "#141414",
         }
     },
-    "editor.fontFamily": "JetBrains Mono",
-    "editor.fontWeight": "450",
+    "editor.fontFamily": "Monocode",
+    "editor.fontWeight": "575",
+    "editor.rulers": [
+        80
+    ],
     "editor.minimap.enabled": false,
     "editor.semanticHighlighting.enabled": true,
     "editor.scrollbar.horizontal": "hidden",
@@ -49,7 +52,6 @@
     "telemetry.feedback.enabled": false,
     "telemetry.telemetryLevel": "off",
     "security.workspace.trust.enabled": false,
-    "breadcrumbs.enabled": false,
     "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
     "files.dialog.defaultPath": "/home/angelo",
     "chat.commandCenter.enabled": false,
@@ -57,7 +59,7 @@
     "github.copilot.enable": {
         "*": false,
         "plaintext": false,
-        "markdown": false,
+        "markdown": true,
     },
     // START vim
     // "vim.useSystemClipboard": true,
