@@ -1,5 +1,4 @@
 {
-    "workbench.iconTheme": "material-icon-theme",
     "workbench.tips.enabled": false,
     "workbench.startupEditor": "none",
     "workbench.editor.showTabs": "multiple",
@@ -9,6 +8,7 @@
     "workbench.layoutControl.enabled": false,
     "workbench.editor.empty.hint": "hidden",
     "workbench.colorTheme": "Github Light Theme",
+    "workbench.iconTheme": "material-icon-theme",
     "workbench.colorCustomizations": {
         "[Anysphere Lambda Dark+]": {
             "activityBar.background": "#141414",
@@ -27,8 +27,9 @@
             "titleBar.activeBackground": "#141414",
         }
     },
-    "editor.fontFamily": "Monocode",
-    "editor.fontWeight": "575",
+    "editor.fontFamily": "JetBrainsMono Nerd Font",
+    "editor.fontWeight": "560",
+    "editor.fontSize": 15,
     "editor.rulers": [
         80
     ],
@@ -46,6 +47,7 @@
     "window.menuBarVisibility": "hidden",
     "window.restoreWindows": "none",
     "window.title": "${dirty}${activeEditorShort}${separator}${rootName}",
+    "window.zoomPerWindow": false,
     "explorer.compactFolders": false,
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
@@ -55,7 +57,6 @@
     "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
     "files.dialog.defaultPath": "/home/angelo",
     "chat.commandCenter.enabled": false,
-    "inlineChat.lineNaturalLanguageHint": false,
     "github.copilot.enable": {
         "*": false,
         "plaintext": false,
@@ -114,4 +115,8 @@
     "vscord.status.idle.disconnectOnIdle": true,
     "vscord.status.idle.enabled": false,
     "vscord.status.idle.check": false,
+    "chat.viewSessions.enabled": false,
+    "[markdown]": {
+        "editor.defaultFormatter": "mervin.markdown-formatter"
+    },
 }
