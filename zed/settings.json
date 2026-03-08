@@ -7,52 +7,96 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  "features": {
-    "edit_prediction_provider": "copilot"
-  },
-  "assistant": {
-    "default_model": {
-      "provider": "copilot_chat",
-      "model": "o3-mini"
-    },
-    "version": "2"
-  },
-  "buffer_font_family": "JetBrainsMono Nerd Font",
-  "buffer_font_size": 15.0,
-  "cursor_shape": "block",
-  "scrollbar": {
-    "show": "never"
-  },
-  "tab_bar": {
-    "show_nav_history_buttons": false,
-    "show_tab_bar_buttons": false
-  },
-  "tabs": {
-    "git_status": true
-  },
-  "toolbar": {
-    "breadcrumbs": false,
-    "quick_actions": false
-  },
-  "git": {
-    "inline_blame": {
-      "enabled": false
-    }
-  },
-  "gutter": {
-    "line_numbers": true,
-    "code_actions": false,
-    "runnables": true,
-    "folds": false
-  },
   "preview_tabs": {
     "enabled": false
   },
-  "theme": "Catppuccin Mocha",
-
-  "languages": {
-    "C++": {
-      "format_on_save": "on"
-    }
-  }
+  "toolbar": {
+    "agent_review": true,
+    "selections_menu": true,
+    "quick_actions": false,
+    "breadcrumbs": false,
+  },
+  "tabs": {
+    "show_diagnostics": "off",
+    "git_status": false,
+  },
+  "title_bar": {
+    "show_menus": false,
+    "show_branch_icon": false,
+    "show_branch_name": true,
+  },
+  "diagnostics": {
+    "button": true,
+  },
+  "project_panel": {
+    "button": true,
+  },
+  "debugger": {
+    "dock": "left",
+  },
+  "buffer_line_height": {
+    "custom": 1.5,
+  },
+  "buffer_font_weight": 450.0,
+  "buffer_font_family": ".ZedMono",
+  "buffer_font_features": {
+    "calt": false,
+  },
+  "use_system_prompts": false,
+  "use_system_path_prompts": false,
+  "edit_predictions": {
+    "copilot": {
+      "enable_next_edit_suggestions": false,
+    },
+    "provider": "copilot",
+  },
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false,
+  },
+  "session": {
+    "trust_all_worktrees": false,
+  },
+  "icon_theme": {
+    "mode": "system",
+    "light": "Zed (Default)",
+    "dark": "Zed (Default)",
+  },
+  "base_keymap": "VSCode",
+  "ui_font_features": {
+    "calt": false,
+  },
+  "ui_font_size": 16,
+  "buffer_font_size": 15.5,
+  "theme": "One Dark",
+  "collaboration_panel": {
+    "button": false,
+  },
+  "outline_panel": {
+    "button": false,
+  },
+  "notification_panel": {
+    "button": false,
+  },
+  "tab_bar": {
+    "show_nav_history_buttons": false,
+    "show": true,
+    "show_tab_bar_buttons": false,
+  },
+  "search": {
+    "button": false,
+  },
+  "terminal": {
+    "button": false,
+  },
+  "agent": {
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "gpt-5-mini",
+      "enable_thinking": false,
+    },
+    "enabled": true,
+    "enable_feedback": false,
+    "button": false,
+  },
 }
